@@ -1,27 +1,21 @@
 {
-  "name": "recipe-search",
+  "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
+  "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
   },
   "author": "Kumar Gaurav",
   "license": "ISC",
-  "dependencies": {
-    "core-js": "^3.31.1",
-    "fractional": "^1.0.0",
-    "regenerator-runtime": "^0.13.11"
-  },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.9.3",
-    "parcel": "^2.9.3"
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.26.10"
   },
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kumar9155/recipe-search.git"
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
   }
 }
